@@ -9,7 +9,7 @@
 </head>
 <body>
 <!-- TradingView Widget END -->
-<p class="py-8 text-xl font-mono text-center">Tue, May 21, 08:00</p>
+<p class="py-8 text-xl font-mono text-center">Tue, May 21, 08:30</p>
 <hr class="h-px w-2/3 mx-auto bg-slate-300 border-0">
 
     
@@ -26,7 +26,83 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">MSOS | AX1,RO2 | AdvisorShares Pure US Cannabis ETF</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">XLY | AX1,RO3 | Consumer Discretionary Select Sector SPDR Fund</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "XLY",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                    <table class="table-auto text-center">
+                        <tbody>
+                        <caption class="pt-4 caption-bottom text-xs font-thin">
+                            
+                                XLY
+                            
+                        </caption>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=XLY%2CXLY&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">XLY</a>
+                                </td>
+                                <td>AX1,RO3</td>
+                                <td>Consumer Discretionary Select Sector SPDR Fund</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            
+        
+            
+            
+                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
+            
+        
+            
+                <div class="col-span-2">
+                    <hr class="h-px my-8 bg-slate-300 border-0">
+                </div>
+            
+            
+                <div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">MSOS | AX3,RO2 | AdvisorShares Pure US Cannabis ETF</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -66,7 +142,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">IWD | AX1 | iShares Russell 1000 Value ETF</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">SCHD | AX3,RO2 | Schwab US Dividend Equity ETF</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -74,7 +150,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "IWD",
+                                        "symbol": "SCHD",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -108,7 +184,7 @@
                             
                                 MSOS,
                             
-                                IWD
+                                SCHD
                             
                         </caption>
                         
@@ -118,198 +194,18 @@
                                     <a href="https://elite.finviz.com/charts?t=MSOS%2CMSOS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">MSOS</a>
                                 </td>
-                                <td>AX1,RO2</td>
+                                <td>AX3,RO2</td>
                                 <td>AdvisorShares Pure US Cannabis ETF</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-50 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=IWD%2CIWD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">IWD</a>
-                                </td>
-                                <td>AX1</td>
-                                <td>iShares Russell 1000 Value ETF</td>
-                            </tr>
-                        
-                        </tbody>
-                    </table>
-                </div>
-            
-        
-            
-            
-                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
-            
-        
-            
-                <div class="col-span-2">
-                    <hr class="h-px my-8 bg-slate-300 border-0">
-                </div>
-            
-            
-                <div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">BITI | AX3,RO2 | ProShares Short Bitcoin Strategy ETF</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "BITI",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">KOLD | AT3,RO2 | ProShares UltraShort Bloomberg Natural Gas</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "KOLD",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">TAN | AT2 | Invesco Solar ETF</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "TAN",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                    <table class="table-auto text-center">
-                        <tbody>
-                        <caption class="pt-4 caption-bottom text-xs font-thin">
-                            
-                                BITI,
-                            
-                                KOLD,
-                            
-                                TAN
-                            
-                        </caption>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=BITI%2CBITI&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">BITI</a>
+                                    <a href="https://elite.finviz.com/charts?t=SCHD%2CSCHD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SCHD</a>
                                 </td>
                                 <td>AX3,RO2</td>
-                                <td>ProShares Short Bitcoin Strategy ETF</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=KOLD%2CKOLD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">KOLD</a>
-                                </td>
-                                <td>AT3,RO2</td>
-                                <td>ProShares UltraShort Bloomberg Natural Gas</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TAN%2CTAN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TAN</a>
-                                </td>
-                                <td>AT2</td>
-                                <td>Invesco Solar ETF</td>
+                                <td>Schwab US Dividend Equity ETF</td>
                             </tr>
                         
                         </tbody>
@@ -451,15 +347,11 @@
                             
                                 BITX,
                             
-                                BOIL,
-                            
                                 FBTC,
                             
                                 GBTC,
                             
-                                IBIT,
-                            
-                                UNG
+                                IBIT
                             
                         </caption>
                         
@@ -494,17 +386,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=BOIL%2CBOIL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">BOIL</a>
-                                </td>
-                                <td>AT3,RO2</td>
-                                <td>ProShares Ultra Bloomberg Natural Gas</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 text-slate-300">
+                            <tr class="bg-slate-50 text-slate-300">
                                 <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=FBTC%2CFBTC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">FBTC</a>
@@ -514,7 +396,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-50 text-slate-300">
+                            <tr class="bg-slate-100 text-slate-300">
                                 <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=GBTC%2CGBTC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">GBTC</a>
@@ -524,23 +406,13 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-100 text-slate-300">
+                            <tr class="bg-slate-50 text-slate-300">
                                 <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=IBIT%2CIBIT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">IBIT</a>
                                 </td>
                                 <td>AX3,RO2</td>
                                 <td>iShares Bitcoin Trust iShares Bitcoin Trust</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=UNG%2CUNG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">UNG</a>
-                                </td>
-                                <td>AT3,RO2</td>
-                                <td>United States Natural Gas Fund, LP Unit</td>
                             </tr>
                         
                         </tbody>
@@ -560,7 +432,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">DRN | AX3 | Direxion Daily Real Estate Bull 3X Shares</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">IWD | AX3 | iShares Russell 1000 Value ETF</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -568,7 +440,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "DRN",
+                                        "symbol": "IWD",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -600,7 +472,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">SCHH | AX3 | Schwab U.S. REIT ETF</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">TAN | AT3 | Invesco Solar ETF</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -608,7 +480,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "SCHH",
+                                        "symbol": "TAN",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -640,30 +512,30 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
-                                DRN,
+                                IWD,
                             
-                                SCHH
+                                TAN
                             
                         </caption>
                         
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=DRN%2CDRN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">DRN</a>
+                                    <a href="https://elite.finviz.com/charts?t=IWD%2CIWD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">IWD</a>
                                 </td>
                                 <td>AX3</td>
-                                <td>Direxion Daily Real Estate Bull 3X Shares</td>
+                                <td>iShares Russell 1000 Value ETF</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-50 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=SCHH%2CSCHH&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">SCHH</a>
+                                    <a href="https://elite.finviz.com/charts?t=TAN%2CTAN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">TAN</a>
                                 </td>
-                                <td>AX3</td>
-                                <td>Schwab U.S. REIT ETF</td>
+                                <td>AT3</td>
+                                <td>Invesco Solar ETF</td>
                             </tr>
                         
                         </tbody>
@@ -692,7 +564,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">JBHT | AX1,RO2,GX3 | JB Hunt Transport Services Inc</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">CAH | AX1,RO2 | Cardinal Health, Inc.</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -700,7 +572,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "JBHT",
+                                        "symbol": "CAH",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -732,7 +604,401 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">IEX | AX1,RO2 | IDEX Corporation</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">HD | AX1,RO2 | Home Depot, Inc.</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "HD",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">NSC | AX1,RO2 | Norfolk Southern Corp.</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "NSC",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                    <table class="table-auto text-center">
+                        <tbody>
+                        <caption class="pt-4 caption-bottom text-xs font-thin">
+                            
+                                CAH,
+                            
+                                HD,
+                            
+                                NSC,
+                            
+                                TGT
+                            
+                        </caption>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=CAH%2CCAH&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">CAH</a>
+                                </td>
+                                <td>AX1,RO2</td>
+                                <td>Cardinal Health, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=HD%2CHD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">HD</a>
+                                </td>
+                                <td>AX1,RO2</td>
+                                <td>Home Depot, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=NSC%2CNSC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">NSC</a>
+                                </td>
+                                <td>AX1,RO2</td>
+                                <td>Norfolk Southern Corp.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=TGT%2CTGT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">TGT</a>
+                                </td>
+                                <td>AX1,RO2</td>
+                                <td>Target Corporation</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            
+        
+            
+            
+                <div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">LIN | AX1,RO2,GX3 | Linde plc Ordinary Share</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "LIN",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">BRO | AX1,RO2 | Brown & Brown, Inc.</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "BRO",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">LYV | AX1,RO2 | Live Nation Entertainment Inc.</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "LYV",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                    <table class="table-auto text-center">
+                        <tbody>
+                        <caption class="pt-4 caption-bottom text-xs font-thin">
+                            
+                                LIN,
+                            
+                                BRO,
+                            
+                                LYV,
+                            
+                                FOX,
+                            
+                                DDOG,
+                            
+                                WM
+                            
+                        </caption>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=LIN%2CLIN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">LIN</a>
+                                </td>
+                                <td>AX1,RO2,GX3</td>
+                                <td>Linde plc Ordinary Share</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=BRO%2CBRO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">BRO</a>
+                                </td>
+                                <td>AX1,RO2</td>
+                                <td>Brown & Brown, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=LYV%2CLYV&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">LYV</a>
+                                </td>
+                                <td>AX1,RO2</td>
+                                <td>Live Nation Entertainment Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=FOX%2CFOX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">FOX</a>
+                                </td>
+                                <td>AX1,RO3</td>
+                                <td>Fox Corporation Class B Common Stock</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=DDOG%2CDDOG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">DDOG</a>
+                                </td>
+                                <td>GX1</td>
+                                <td>Datadog, Inc. Class A Common Stock</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=WM%2CWM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">WM</a>
+                                </td>
+                                <td>GX1</td>
+                                <td>Waste Management, Inc.</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            
+        
+            
+                <div class="col-span-2">
+                    <hr class="h-px my-8 bg-slate-300 border-0">
+                </div>
+            
+            
+                <div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">EL | AT2,RO3 | The Estee Lauder Companies Inc. Class A</p>
+                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
+                                <div class="tradingview-widget-container__widget"></div>
+                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                                    {
+                                        "height": 800,
+                                        
+                                        
+                                        "symbol": "EL",
+                                        "interval": "D",
+                                        "timezone": "America/Los_Angeles",
+                                        "theme": "dark",
+                                        "style": "1",
+                                        "locale": "en",
+                                        "hide_top_toolbar": true,
+                                        "hide_legend": true,
+                                        "allow_symbol_change": false,
+                                        "save_image": false,
+                                        "calendar": false,
+                                        "studies": [
+                                            "STD;RSI",
+                                            "STD;Money_Flow",
+                                            "STD;DMI",
+                                            "STD;Stochastic",
+                                            "STD;MACD"
+                                        ],
+                                        "support_host": "https://www.tradingview.com"
+                                    }
+                                </script>
+                            </div>
+                            <hr class="h-px my-8 bg-slate-300 border-0">
+                            <!-- TradingView Widget END -->
+                            
+                        
+                        </div>
+                    
+                        
+                        
+                            <!-- TradingView Widget BEGIN -->
+                        <div class="my-12" x-data="{ open: false }">
+                            <p class="text-xl font-mono" x-on:click="open = ! open">IEX | AX3,RO2 | IDEX Corporation</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -772,7 +1038,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">NDSN | RO2,GX1 | Nordson Corp</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">JBHT | AX3,RO2 | JB Hunt Transport Services Inc</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -780,7 +1046,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "NDSN",
+                                        "symbol": "JBHT",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -812,34 +1078,24 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
-                                JBHT,
+                                EL,
                             
                                 IEX,
                             
-                                NDSN,
+                                JBHT,
                             
-                                ZION,
-                            
-                                CMA,
-                            
-                                ALLE,
-                            
-                                L,
-                            
-                                MHK,
-                            
-                                SHW
+                                NDSN
                             
                         </caption>
                         
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=JBHT%2CJBHT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">JBHT</a>
+                                    <a href="https://elite.finviz.com/charts?t=EL%2CEL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">EL</a>
                                 </td>
-                                <td>AX1,RO2,GX3</td>
-                                <td>JB Hunt Transport Services Inc</td>
+                                <td>AT2,RO3</td>
+                                <td>The Estee Lauder Companies Inc. Class A</td>
                             </tr>
                         
                             
@@ -848,424 +1104,28 @@
                                     <a href="https://elite.finviz.com/charts?t=IEX%2CIEX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">IEX</a>
                                 </td>
-                                <td>AX1,RO2</td>
+                                <td>AX3,RO2</td>
                                 <td>IDEX Corporation</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=JBHT%2CJBHT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">JBHT</a>
+                                </td>
+                                <td>AX3,RO2</td>
+                                <td>JB Hunt Transport Services Inc</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=NDSN%2CNDSN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">NDSN</a>
                                 </td>
-                                <td>RO2,GX1</td>
-                                <td>Nordson Corp</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ZION%2CZION&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ZION</a>
-                                </td>
-                                <td>AX3,RO1,RO3</td>
-                                <td>Zions Bancorporation N.A.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=CMA%2CCMA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">CMA</a>
-                                </td>
-                                <td>AX3,RO1</td>
-                                <td>Comerica Incorporated</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ALLE%2CALLE&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ALLE</a>
-                                </td>
-                                <td>AT1</td>
-                                <td>Allegion Public Limited Company</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=L%2CL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">L</a>
-                                </td>
-                                <td>GX1</td>
-                                <td>Loews Corporation</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=MHK%2CMHK&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">MHK</a>
-                                </td>
-                                <td>AX1</td>
-                                <td>Mohawk Industries, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=SHW%2CSHW&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">SHW</a>
-                                </td>
-                                <td>GX1</td>
-                                <td>The Sherwin-Williams Company</td>
-                            </tr>
-                        
-                        </tbody>
-                    </table>
-                </div>
-            
-        
-            
-            
-                <div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">MSCI | AT1 | MSCI, Inc.</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "MSCI",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">SWKS | GX1 | Skyworks Solutions Inc</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "SWKS",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">TSCO | AT1 | Tractor Supply Co</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "TSCO",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                    <table class="table-auto text-center">
-                        <tbody>
-                        <caption class="pt-4 caption-bottom text-xs font-thin">
-                            
-                                MSCI,
-                            
-                                SWKS,
-                            
-                                TSCO
-                            
-                        </caption>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=MSCI%2CMSCI&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">MSCI</a>
-                                </td>
-                                <td>AT1</td>
-                                <td>MSCI, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=SWKS%2CSWKS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">SWKS</a>
-                                </td>
-                                <td>GX1</td>
-                                <td>Skyworks Solutions Inc</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TSCO%2CTSCO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TSCO</a>
-                                </td>
-                                <td>AT1</td>
-                                <td>Tractor Supply Co</td>
-                            </tr>
-                        
-                        </tbody>
-                    </table>
-                </div>
-            
-        
-            
-                <div class="col-span-2">
-                    <hr class="h-px my-8 bg-slate-300 border-0">
-                </div>
-            
-            
-                <div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">LOW | RO2,GX3 | Lowe's Companies Inc.</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "LOW",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">MDLZ | AT3,RO2 | Mondelez International, Inc. Class A</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "MDLZ",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">TAP | AT3,RO2 | Molson Coors Beverage Company Class B</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "TAP",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                    <table class="table-auto text-center">
-                        <tbody>
-                        <caption class="pt-4 caption-bottom text-xs font-thin">
-                            
-                                LOW,
-                            
-                                MDLZ,
-                            
-                                TAP
-                            
-                        </caption>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=LOW%2CLOW&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">LOW</a>
-                                </td>
                                 <td>RO2,GX3</td>
-                                <td>Lowe's Companies Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=MDLZ%2CMDLZ&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">MDLZ</a>
-                                </td>
-                                <td>AT3,RO2</td>
-                                <td>Mondelez International, Inc. Class A</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TAP%2CTAP&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TAP</a>
-                                </td>
-                                <td>AT3,RO2</td>
-                                <td>Molson Coors Beverage Company Class B</td>
+                                <td>Nordson Corp</td>
                             </tr>
                         
                         </tbody>
@@ -1321,7 +1181,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">LIN | RO2,GX3 | Linde plc Ordinary Share</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">TSCO | AT2 | Tractor Supply Co</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1329,47 +1189,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "LIN",
-                                        "interval": "D",
-                                        "timezone": "America/Los_Angeles",
-                                        "theme": "dark",
-                                        "style": "1",
-                                        "locale": "en",
-                                        "hide_top_toolbar": true,
-                                        "hide_legend": true,
-                                        "allow_symbol_change": false,
-                                        "save_image": false,
-                                        "calendar": false,
-                                        "studies": [
-                                            "STD;RSI",
-                                            "STD;Money_Flow",
-                                            "STD;DMI",
-                                            "STD;Stochastic",
-                                            "STD;MACD"
-                                        ],
-                                        "support_host": "https://www.tradingview.com"
-                                    }
-                                </script>
-                            </div>
-                            <hr class="h-px my-8 bg-slate-300 border-0">
-                            <!-- TradingView Widget END -->
-                            
-                        
-                        </div>
-                    
-                        
-                        
-                            <!-- TradingView Widget BEGIN -->
-                        <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">PCG | AT2,RO3 | PG&E Corporation</p>
-                            <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                                    {
-                                        "height": 800,
-                                        
-                                        
-                                        "symbol": "PCG",
+                                        "symbol": "TSCO",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -1403,9 +1223,7 @@
                             
                                 BSX,
                             
-                                LIN,
-                            
-                                PCG
+                                TSCO
                             
                         </caption>
                         
@@ -1422,21 +1240,11 @@
                             
                             <tr class="bg-slate-50 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=LIN%2CLIN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">LIN</a>
+                                    <a href="https://elite.finviz.com/charts?t=TSCO%2CTSCO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">TSCO</a>
                                 </td>
-                                <td>RO2,GX3</td>
-                                <td>Linde plc Ordinary Share</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=PCG%2CPCG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">PCG</a>
-                                </td>
-                                <td>AT2,RO3</td>
-                                <td>PG&E Corporation</td>
+                                <td>AT2</td>
+                                <td>Tractor Supply Co</td>
                             </tr>
                         
                         </tbody>
@@ -1456,7 +1264,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">BR | AX3,RO3 | Broadridge Financial Solutions Inc</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">GPC | AX3,RO3 | Genuine Parts Company</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1464,7 +1272,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "BR",
+                                        "symbol": "GPC",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -1496,7 +1304,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">AIZ | AT3 | Assurant, Inc.</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">KMX | AX3,RO3 | CarMax Inc.</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1504,7 +1312,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "AIZ",
+                                        "symbol": "KMX",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -1536,7 +1344,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">AMT | AX3 | American Tower Corporation</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">ALLE | AT3 | Allegion Public Limited Company</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1544,7 +1352,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "AMT",
+                                        "symbol": "ALLE",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -1576,29 +1384,27 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
-                                BR,
+                                GPC,
                             
-                                AIZ,
+                                KMX,
                             
-                                AMT,
+                                ALLE,
                             
                                 BIO,
                             
-                                DLR,
+                                CSX,
                             
                                 IDXX,
                             
-                                IQV,
+                                L,
                             
-                                MAS,
+                                MHK,
                             
                                 MOH,
                             
                                 REG,
                             
-                                RVTY,
-                            
-                                T,
+                                SHW,
                             
                                 WAT
                             
@@ -1607,31 +1413,31 @@
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=BR%2CBR&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">BR</a>
+                                    <a href="https://elite.finviz.com/charts?t=GPC%2CGPC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">GPC</a>
                                 </td>
                                 <td>AX3,RO3</td>
-                                <td>Broadridge Financial Solutions Inc</td>
+                                <td>Genuine Parts Company</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-50 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=AIZ%2CAIZ&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">AIZ</a>
+                                    <a href="https://elite.finviz.com/charts?t=KMX%2CKMX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">KMX</a>
                                 </td>
-                                <td>AT3</td>
-                                <td>Assurant, Inc.</td>
+                                <td>AX3,RO3</td>
+                                <td>CarMax Inc.</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=AMT%2CAMT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">AMT</a>
+                                    <a href="https://elite.finviz.com/charts?t=ALLE%2CALLE&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">ALLE</a>
                                 </td>
-                                <td>AX3</td>
-                                <td>American Tower Corporation</td>
+                                <td>AT3</td>
+                                <td>Allegion Public Limited Company</td>
                             </tr>
                         
                             
@@ -1647,11 +1453,11 @@
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=DLR%2CDLR&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">DLR</a>
+                                    <a href="https://elite.finviz.com/charts?t=CSX%2CCSX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">CSX</a>
                                 </td>
                                 <td>AX3</td>
-                                <td>Digital Realty Trust, Inc.</td>
+                                <td>CSX Corporation</td>
                             </tr>
                         
                             
@@ -1667,21 +1473,21 @@
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=IQV%2CIQV&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">IQV</a>
+                                    <a href="https://elite.finviz.com/charts?t=L%2CL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">L</a>
                                 </td>
-                                <td>AX3</td>
-                                <td>IQVIA Holdings Inc.</td>
+                                <td>GX3</td>
+                                <td>Loews Corporation</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-50 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=MAS%2CMAS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">MAS</a>
+                                    <a href="https://elite.finviz.com/charts?t=MHK%2CMHK&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">MHK</a>
                                 </td>
                                 <td>AX3</td>
-                                <td>Masco Corporation</td>
+                                <td>Mohawk Industries, Inc.</td>
                             </tr>
                         
                             
@@ -1707,25 +1513,15 @@
                             
                             <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=RVTY%2CRVTY&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">RVTY</a>
+                                    <a href="https://elite.finviz.com/charts?t=SHW%2CSHW&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SHW</a>
                                 </td>
-                                <td>AT3</td>
-                                <td>Revvity, Inc.</td>
+                                <td>GX3</td>
+                                <td>The Sherwin-Williams Company</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=T%2CT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">T</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>AT&T Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
                                 <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=WAT%2CWAT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">WAT</a>
@@ -1747,7 +1543,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">HAS | AX3,RO3 | Hasbro, Inc.</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">HAS | AX3 | Hasbro, Inc.</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1787,7 +1583,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">CZR | AT3 | Caesars Entertainment, Inc. Common Stock</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">JBL | GX3 | Jabil Inc.</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1795,7 +1591,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "CZR",
+                                        "symbol": "JBL",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -1827,7 +1623,7 @@
                         
                             <!-- TradingView Widget BEGIN -->
                         <div class="my-12" x-data="{ open: false }">
-                            <p class="text-xl font-mono" x-on:click="open = ! open">DLTR | AT3 | Dollar Tree Inc.</p>
+                            <p class="text-xl font-mono" x-on:click="open = ! open">MELI | AT3 | Mercado Libre, Inc</p>
                             <div class="tradingview-widget-container my-4 hidden" x-cloak x-show="open">
                                 <div class="tradingview-widget-container__widget"></div>
                                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
@@ -1835,7 +1631,7 @@
                                         "height": 800,
                                         
                                         
-                                        "symbol": "DLTR",
+                                        "symbol": "MELI",
                                         "interval": "D",
                                         "timezone": "America/Los_Angeles",
                                         "theme": "dark",
@@ -1869,15 +1665,15 @@
                             
                                 HAS,
                             
-                                CZR,
-                            
-                                DLTR,
-                            
                                 JBL,
                             
                                 MELI,
                             
-                                TTD
+                                MSCI,
+                            
+                                PCG,
+                            
+                                SWKS
                             
                         </caption>
                         
@@ -1887,28 +1683,8 @@
                                     <a href="https://elite.finviz.com/charts?t=HAS%2CHAS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">HAS</a>
                                 </td>
-                                <td>AX3,RO3</td>
+                                <td>AX3</td>
                                 <td>Hasbro, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=CZR%2CCZR&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">CZR</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Caesars Entertainment, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=DLTR%2CDLTR&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">DLTR</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Dollar Tree Inc.</td>
                             </tr>
                         
                             
@@ -1934,11 +1710,31 @@
                             
                             <tr class="bg-slate-50 False">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TTD%2CTTD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TTD</a>
+                                    <a href="https://elite.finviz.com/charts?t=MSCI%2CMSCI&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">MSCI</a>
                                 </td>
                                 <td>AT3</td>
-                                <td>The Trade Desk, Inc.</td>
+                                <td>MSCI, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=PCG%2CPCG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">PCG</a>
+                                </td>
+                                <td>AT3</td>
+                                <td>PG&E Corporation</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=SWKS%2CSWKS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SWKS</a>
+                                </td>
+                                <td>GX3</td>
+                                <td>Skyworks Solutions Inc</td>
                             </tr>
                         
                         </tbody>
