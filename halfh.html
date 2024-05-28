@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- TradingView Widget END -->
-<p class="py-8 text-xl font-mono text-center">Tue, May 28, 09:30</p>
+<p class="py-8 text-xl font-mono text-center">Tue, May 28, 10:00</p>
 
 
     
@@ -26,7 +26,77 @@
                 </div>
             
             
-                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
+                <div>
+                    <div class="tradingview-widget-container my-4">
+                        <div class="tradingview-widget-container__widget"></div>
+                        
+                        <script type="text/javascript"
+                                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                            {
+                                "height": 1000,
+                                "symbol": "NUGT",
+                                "interval": "D",
+                                "timezone": "America/Los_Angeles",
+                                "theme": "light",
+                                "style": "9",
+                                "locale": "en",
+                                "hide_top_toolbar": true,
+                                "allow_symbol_change": false,
+                                "save_image": false,
+                                "watchlist": ["NUGT"],
+                                "calendar": false,
+                                "studies": [
+                                    "STD;RSI",
+                                    "STD;Money_Flow",
+                                    "STD;DMI",
+                                    "STD;Stochastic",
+                                    "STD;MACD",
+                                    "STD;Bollinger_Bands"
+                                ],
+                                
+                                
+                                
+                                "support_host": "https://www.tradingview.com"
+                            }
+                        </script>
+                        
+                    </div>
+                    
+                    
+                    
+
+
+
+
+
+                            
+                    
+                    
+                    
+                    <table class="table-auto w-full text-center">
+                        <tbody>
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+                            <tr class="bg-slate-100 False">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=NUGT%2CNUGT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">NUGT</a>
+                                </td>
+                                <td>GX1</td>
+                                <td>Direxion Daily Gold Miners Index Bull 2X Shares</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                    
+                    
+                    
+                </div>
             
         
             
@@ -71,7 +141,7 @@
                                 "hide_top_toolbar": true,
                                 "allow_symbol_change": false,
                                 "save_image": false,
-                                "watchlist": ["BOIL", "UNG"],
+                                "watchlist": ["BOIL"],
                                 "calendar": false,
                                 "studies": [
                                     "STD;RSI",
@@ -117,16 +187,6 @@
                                 </td>
                                 <td>AT3</td>
                                 <td>ProShares Ultra Bloomberg Natural Gas</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50 False">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=UNG%2CUNG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">UNG</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>United States Natural Gas Fund, LP Unit</td>
                             </tr>
                         
                         </tbody>
