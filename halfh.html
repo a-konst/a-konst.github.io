@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-<p class="ml-8 mt-8 text-xl font-mono float-left">Fri, Jul 26, 09:30</p>
+<p class="ml-8 mt-8 text-xl font-mono float-left">Fri, Jul 26, 10:00</p>
 
 
 
@@ -29,7 +29,76 @@
                 </div>
             
             
-                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
+                <div>
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        
+                        <script type="text/javascript"
+                                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                            {
+                                "height": 1200,
+                                "symbol": "SOXX",
+                                "interval": "30",
+                                "timezone": "America/Los_Angeles",
+                                "theme": "dark",
+                                "style": "9",
+                                "locale": "en",
+                                "hide_top_toolbar": true,
+                                "allow_symbol_change": false,
+                                "save_image": false,
+                                "watchlist": ["SOXX"],
+                                "calendar": false,
+                                "studies": [
+                                    "STD;RSI",
+                                    "STD;Money_Flow",
+                                    "STD;DMI",
+                                    "STD;Stochastic",
+                                    "STD;MACD",
+                                    "STD;Bollinger_Bands"
+                                ],
+                                
+                                
+                                
+                                "support_host": "https://www.tradingview.com"
+                            }
+                        </script>
+                        
+                    </div>
+                    
+                    
+                    
+
+
+
+
+
+                            
+                    
+                    
+                    
+                    <table class="table-auto w-full text-center">
+                        <tbody>
+                        <caption class="pt-4 caption-bottom text-xs font-thin">
+                            
+                                SOXX
+                            
+                        </caption>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=SOXX%2CSOXX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SOXX</a>
+                                </td>
+                                <td>LT1</td>
+                                <td>iShares Semiconductor ETF</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
             
         
             
@@ -153,7 +222,7 @@
                                 src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
                             {
                                 "height": 1200,
-                                "symbol": "HYG",
+                                "symbol": "FAS",
                                 "interval": "30",
                                 "timezone": "America/Los_Angeles",
                                 "theme": "dark",
@@ -162,7 +231,7 @@
                                 "hide_top_toolbar": true,
                                 "allow_symbol_change": false,
                                 "save_image": false,
-                                "watchlist": ["HYG", "KOLD", "KRE", "XLE", "MIDU"],
+                                "watchlist": ["FAS", "HYG", "IWM", "KOLD", "KRE", "TNA", "XLE", "XLF", "UWM"],
                                 "calendar": false,
                                 "studies": [
                                     "STD;RSI",
@@ -196,15 +265,23 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
+                                FAS,
+                            
                                 HYG,
+                            
+                                IWM,
                             
                                 KOLD,
                             
                                 KRE,
                             
+                                TNA,
+                            
                                 XLE,
                             
-                                MIDU
+                                XLF,
+                            
+                                UWM
                             
                         </caption>
                         
@@ -213,11 +290,35 @@
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=FAS%2CFAS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">FAS</a>
+                                </td>
+                                <td>RD2</td>
+                                <td>Direxion Daily Financial Bull 3x Shares</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=HYG%2CHYG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">HYG</a>
                                 </td>
                                 <td>RD2</td>
                                 <td>iShares iBoxx $ High Yield Corporate Bond ETF</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=IWM%2CIWM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">IWM</a>
+                                </td>
+                                <td>RD2</td>
+                                <td>iShares Russell 2000 ETF</td>
                             </tr>
                         
                             
@@ -249,6 +350,18 @@
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=TNA%2CTNA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">TNA</a>
+                                </td>
+                                <td>RD2</td>
+                                <td>Direxion Daily Small Cap Bull 3x Shares</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=XLE%2CXLE&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">XLE</a>
                                 </td>
@@ -257,15 +370,27 @@
                             </tr>
                         
                             
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=XLF%2CXLF&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">XLF</a>
+                                </td>
+                                <td>RD2</td>
+                                <td>Financial Select Sector SPDR Fund</td>
+                            </tr>
+                        
+                            
                             <tr class="bg-slate-100
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=MIDU%2CMIDU&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">MIDU</a>
+                                    <a href="https://elite.finviz.com/charts?t=UWM%2CUWM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">UWM</a>
                                 </td>
                                 <td>RD2</td>
-                                <td>Direxion Daily Mid Cap Bull 3X Shares</td>
+                                <td>ProShares Ultra Russell2000</td>
                             </tr>
                         
                         </tbody>
@@ -287,7 +412,7 @@
                                 src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
                             {
                                 "height": 1200,
-                                "symbol": "AGQ",
+                                "symbol": "SLV",
                                 "interval": "30",
                                 "timezone": "America/Los_Angeles",
                                 "theme": "dark",
@@ -296,7 +421,7 @@
                                 "hide_top_toolbar": true,
                                 "allow_symbol_change": false,
                                 "save_image": false,
-                                "watchlist": ["AGQ", "FXI", "SLV", "XLY", "YINN", "BKCH"],
+                                "watchlist": ["SLV", "TZA", "BKCH", "SRTY"],
                                 "calendar": false,
                                 "studies": [
                                     "STD;RSI",
@@ -330,43 +455,15 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
-                                AGQ,
-                            
-                                FXI,
-                            
                                 SLV,
                             
-                                XLY,
+                                TZA,
                             
-                                YINN,
+                                BKCH,
                             
-                                BKCH
+                                SRTY
                             
                         </caption>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=AGQ%2CAGQ&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">AGQ</a>
-                                </td>
-                                <td>AT3,RO3</td>
-                                <td>ProShares Ultra Silver</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=FXI%2CFXI&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">FXI</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>iShares China Large-Cap ETF</td>
-                            </tr>
                         
                             
                             <tr class="bg-slate-100
@@ -385,27 +482,15 @@
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=XLY%2CXLY&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">XLY</a>
+                                    <a href="https://elite.finviz.com/charts?t=TZA%2CTZA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">TZA</a>
                                 </td>
-                                <td>AT3</td>
-                                <td>Consumer Discretionary Select Sector SPDR Fund</td>
+                                <td>RD3</td>
+                                <td>Direxion Daily Small Cap Bear 3x Shares</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=YINN%2CYINN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">YINN</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>Direxion Daily FTSE  China Bull 3X Shares</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
                                         False
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
@@ -414,6 +499,18 @@
                                 </td>
                                 <td>GX3</td>
                                 <td>Global X Blockchain ETF</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=SRTY%2CSRTY&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SRTY</a>
+                                </td>
+                                <td>RD3</td>
+                                <td>ProShares UltraPro Short Russell2000</td>
                             </tr>
                         
                         </tbody>
@@ -431,7 +528,7 @@
                                 src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
                             {
                                 "height": 1200,
-                                "symbol": "GLD",
+                                "symbol": "MIDU",
                                 "interval": "30",
                                 "timezone": "America/Los_Angeles",
                                 "theme": "dark",
@@ -440,7 +537,7 @@
                                 "hide_top_toolbar": true,
                                 "allow_symbol_change": false,
                                 "save_image": false,
-                                "watchlist": ["GLD", "IWM", "TNA", "XLI", "PBW", "UWM", "YANG", "ZSL"],
+                                "watchlist": ["MIDU", "ZSL"],
                                 "calendar": false,
                                 "studies": [
                                     "STD;RSI",
@@ -474,19 +571,7 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
-                                GLD,
-                            
-                                IWM,
-                            
-                                TNA,
-                            
-                                XLI,
-                            
-                                PBW,
-                            
-                                UWM,
-                            
-                                YANG,
+                                MIDU,
                             
                                 ZSL
                             
@@ -494,86 +579,14 @@
                         
                             
                             <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=GLD%2CGLD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">GLD</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>SPDR Gold Trust, SPDR Gold Shares</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=IWM%2CIWM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">IWM</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>iShares Russell 2000 ETF</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TNA%2CTNA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TNA</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>Direxion Daily Small Cap Bull 3x Shares</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=XLI%2CXLI&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">XLI</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>Industrial Select Sector SPDR Fund</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=PBW%2CPBW&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">PBW</a>
+                                    <a href="https://elite.finviz.com/charts?t=MIDU%2CMIDU&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">MIDU</a>
                                 </td>
                                 <td>RD3</td>
-                                <td>Invesco WilderHill Clean Energy ETF</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=UWM%2CUWM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">UWM</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>ProShares Ultra Russell2000</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=YANG%2CYANG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">YANG</a>
-                                </td>
-                                <td>RD3</td>
-                                <td>Direxion Daily FTSE  China Bear 3X Shares</td>
+                                <td>Direxion Daily Mid Cap Bull 3X Shares</td>
                             </tr>
                         
                             
@@ -621,7 +634,7 @@
                                 src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
                             {
                                 "height": 1200,
-                                "symbol": "LUV",
+                                "symbol": "BSX",
                                 "interval": "30",
                                 "timezone": "America/Los_Angeles",
                                 "theme": "dark",
@@ -630,7 +643,7 @@
                                 "hide_top_toolbar": true,
                                 "allow_symbol_change": false,
                                 "save_image": false,
-                                "watchlist": ["LUV", "MRNA", "JILL", "WAB"],
+                                "watchlist": ["BSX", "ET"],
                                 "calendar": false,
                                 "studies": [
                                     "STD;RSI",
@@ -664,13 +677,9 @@
                         <tbody>
                         <caption class="pt-4 caption-bottom text-xs font-thin">
                             
-                                LUV,
+                                BSX,
                             
-                                MRNA,
-                            
-                                JILL,
-                            
-                                WAB
+                                ET
                             
                         </caption>
                         
@@ -679,11 +688,11 @@
                                         font-semibold
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=LUV%2CLUV&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">LUV</a>
+                                    <a href="https://elite.finviz.com/charts?t=BSX%2CBSX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">BSX</a>
                                 </td>
-                                <td>AX1</td>
-                                <td>Southwest Airlines Co.</td>
+                                <td>GX1</td>
+                                <td>Boston Scientific Corp.</td>
                             </tr>
                         
                             
@@ -691,11 +700,431 @@
                                         font-semibold
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=ET%2CET&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">ET</a>
+                                </td>
+                                <td>GX1</td>
+                                <td>Energy Transfer LP Common Units representing limited partner interests</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            
+        
+            
+            
+                <div>
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        
+                        <script type="text/javascript"
+                                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                            {
+                                "height": 1200,
+                                "symbol": "GILD",
+                                "interval": "30",
+                                "timezone": "America/Los_Angeles",
+                                "theme": "dark",
+                                "style": "9",
+                                "locale": "en",
+                                "hide_top_toolbar": true,
+                                "allow_symbol_change": false,
+                                "save_image": false,
+                                "watchlist": ["GILD", "AMP", "AZO", "HZO", "ZAPP"],
+                                "calendar": false,
+                                "studies": [
+                                    "STD;RSI",
+                                    "STD;Money_Flow",
+                                    "STD;DMI",
+                                    "STD;Stochastic",
+                                    "STD;MACD",
+                                    "STD;Bollinger_Bands"
+                                ],
+                                
+                                
+                                
+                                "support_host": "https://www.tradingview.com"
+                            }
+                        </script>
+                        
+                    </div>
+                    
+                    
+                    
+
+
+
+
+
+                            
+                    
+                    
+                    
+                    <table class="table-auto w-full text-center">
+                        <tbody>
+                        <caption class="pt-4 caption-bottom text-xs font-thin">
+                            
+                                GILD,
+                            
+                                AMP,
+                            
+                                AZO,
+                            
+                                HZO,
+                            
+                                ZAPP
+                            
+                        </caption>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=GILD%2CGILD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">GILD</a>
+                                </td>
+                                <td>AT1</td>
+                                <td>Gilead Sciences Inc</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=AMP%2CAMP&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">AMP</a>
+                                </td>
+                                <td>GX1</td>
+                                <td>Ameriprise Financial, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=AZO%2CAZO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">AZO</a>
+                                </td>
+                                <td>AX1</td>
+                                <td>AutoZone, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=HZO%2CHZO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">HZO</a>
+                                </td>
+                                <td>GX1</td>
+                                <td>MarineMax, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=ZAPP%2CZAPP&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">ZAPP</a>
+                                </td>
+                                <td>LT1</td>
+                                <td>Zapp Electric Vehicles Group Limited Ordinary Shares</td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+            
+        
+            
+                <div class="col-span-2 my-8 bg-yellow-700">
+                    <hr class="h-px my-4 bg-white border-0">
+                </div>
+            
+            
+                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
+            
+        
+            
+            
+                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
+            
+        
+            
+                <div class="col-span-2 my-8 bg-green-700">
+                    <hr class="h-px my-4 bg-white border-0">
+                </div>
+            
+            
+                <div>
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        
+                        <script type="text/javascript"
+                                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+                            {
+                                "height": 1200,
+                                "symbol": "EQT",
+                                "interval": "30",
+                                "timezone": "America/Los_Angeles",
+                                "theme": "dark",
+                                "style": "9",
+                                "locale": "en",
+                                "hide_top_toolbar": true,
+                                "allow_symbol_change": false,
+                                "save_image": false,
+                                "watchlist": ["EQT", "LUV", "MRNA", "RIVN", "AMD", "F", "LVS", "SQ", "APO", "COIN", "RUN", "ARLO", "DGX", "INSM", "JILL", "WAB", "BAK", "BKKT", "DCTH", "IT", "REPL", "RSG"],
+                                "calendar": false,
+                                "studies": [
+                                    "STD;RSI",
+                                    "STD;Money_Flow",
+                                    "STD;DMI",
+                                    "STD;Stochastic",
+                                    "STD;MACD",
+                                    "STD;Bollinger_Bands"
+                                ],
+                                
+                                
+                                
+                                "support_host": "https://www.tradingview.com"
+                            }
+                        </script>
+                        
+                    </div>
+                    
+                    
+                    
+
+
+
+
+
+                            
+                    
+                    
+                    
+                    <table class="table-auto w-full text-center">
+                        <tbody>
+                        <caption class="pt-4 caption-bottom text-xs font-thin">
+                            
+                                EQT,
+                            
+                                LUV,
+                            
+                                MRNA,
+                            
+                                RIVN,
+                            
+                                AMD,
+                            
+                                F,
+                            
+                                LVS,
+                            
+                                SQ,
+                            
+                                APO,
+                            
+                                COIN,
+                            
+                                RUN,
+                            
+                                ARLO,
+                            
+                                DGX,
+                            
+                                INSM,
+                            
+                                JILL,
+                            
+                                WAB,
+                            
+                                BAK,
+                            
+                                BKKT,
+                            
+                                DCTH,
+                            
+                                IT,
+                            
+                                REPL,
+                            
+                                RSG
+                            
+                        </caption>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=EQT%2CEQT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">EQT</a>
+                                </td>
+                                <td>AX3</td>
+                                <td>EQT CORP</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=LUV%2CLUV&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">LUV</a>
+                                </td>
+                                <td>AX3</td>
+                                <td>Southwest Airlines Co.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=MRNA%2CMRNA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">MRNA</a>
                                 </td>
-                                <td>GX1</td>
+                                <td>GX3</td>
                                 <td>Moderna, Inc. Common Stock</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=RIVN%2CRIVN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">RIVN</a>
+                                </td>
+                                <td>GX3</td>
+                                <td>Rivian Automotive, Inc. Class A Common Stock</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=AMD%2CAMD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">AMD</a>
+                                </td>
+                                <td>AT3</td>
+                                <td>Advanced Micro Devices</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=F%2CF&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">F</a>
+                                </td>
+                                <td>AT3</td>
+                                <td>Ford Motor Company</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=LVS%2CLVS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">LVS</a>
+                                </td>
+                                <td>AT3</td>
+                                <td>Las Vegas Sands Corp.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=SQ%2CSQ&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SQ</a>
+                                </td>
+                                <td>AT3</td>
+                                <td>Block, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=APO%2CAPO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">APO</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Apollo Global Management, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=COIN%2CCOIN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">COIN</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Coinbase Global, Inc. Class A Common Stock</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=RUN%2CRUN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">RUN</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Sunrun Inc</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=ARLO%2CARLO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">ARLO</a>
+                                </td>
+                                <td>GX3</td>
+                                <td>Arlo Technologies, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=DGX%2CDGX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">DGX</a>
+                                </td>
+                                <td>GX3</td>
+                                <td>Quest Diagnostics Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        text-orange-700 ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=INSM%2CINSM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">INSM</a>
+                                </td>
+                                <td>AX3</td>
+                                <td>Insmed, Inc.</td>
                             </tr>
                         
                             
@@ -706,7 +1135,7 @@
                                     <a href="https://elite.finviz.com/charts?t=JILL%2CJILL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">JILL</a>
                                 </td>
-                                <td>AX1</td>
+                                <td>AX3</td>
                                 <td>J.Jill, Inc. Common Stock</td>
                             </tr>
                         
@@ -718,8 +1147,80 @@
                                     <a href="https://elite.finviz.com/charts?t=WAB%2CWAB&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">WAB</a>
                                 </td>
-                                <td>GX1</td>
+                                <td>GX3</td>
                                 <td>Wabtec Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=BAK%2CBAK&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">BAK</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Braskem S.A. American Depositary Shares (Each representing Two Class A  Preferred Shares)</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=BKKT%2CBKKT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">BKKT</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Bakkt Holdings, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=DCTH%2CDCTH&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">DCTH</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Delcath Systems Inc</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=IT%2CIT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">IT</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Gartner, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-100
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=REPL%2CREPL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">REPL</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Replimune Group, Inc.</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        False
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=RSG%2CRSG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">RSG</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Republic Services Inc.</td>
                             </tr>
                         
                         </tbody>
@@ -746,7 +1247,7 @@
                                 "hide_top_toolbar": true,
                                 "allow_symbol_change": false,
                                 "save_image": false,
-                                "watchlist": ["CNC", "CI", "CSX", "SCHW", "AEYE"],
+                                "watchlist": ["CNC", "CI", "CSCO", "CSX", "SCHW", "ABT", "BA", "CLSK", "INO", "IRBT", "KEY", "NKLA", "AEYE", "DECK", "TRUP", "DGX", "HEAR", "INFY", "SIGA", "TDS"],
                                 "calendar": false,
                                 "studies": [
                                     "STD;RSI",
@@ -784,11 +1285,41 @@
                             
                                 CI,
                             
+                                CSCO,
+                            
                                 CSX,
                             
                                 SCHW,
                             
-                                AEYE
+                                ABT,
+                            
+                                BA,
+                            
+                                CLSK,
+                            
+                                INO,
+                            
+                                IRBT,
+                            
+                                KEY,
+                            
+                                NKLA,
+                            
+                                AEYE,
+                            
+                                DECK,
+                            
+                                TRUP,
+                            
+                                DGX,
+                            
+                                HEAR,
+                            
+                                INFY,
+                            
+                                SIGA,
+                            
+                                TDS
                             
                         </caption>
                         
@@ -800,7 +1331,7 @@
                                     <a href="https://elite.finviz.com/charts?t=CNC%2CCNC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">CNC</a>
                                 </td>
-                                <td>AX3,GX1</td>
+                                <td>AX3,GX3</td>
                                 <td>Centene Corporation</td>
                             </tr>
                         
@@ -812,607 +1343,9 @@
                                     <a href="https://elite.finviz.com/charts?t=CI%2CCI&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">CI</a>
                                 </td>
-                                <td>AX1</td>
+                                <td>AX3</td>
                                 <td>The Cigna Group</td>
                             </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=CSX%2CCSX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">CSX</a>
-                                </td>
-                                <td>AX1</td>
-                                <td>CSX Corporation</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=SCHW%2CSCHW&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">SCHW</a>
-                                </td>
-                                <td>AX1</td>
-                                <td>The Charles Schwab Corporation</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=AEYE%2CAEYE&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">AEYE</a>
-                                </td>
-                                <td>AX1</td>
-                                <td>AudioEye, Inc. Common Stock</td>
-                            </tr>
-                        
-                        </tbody>
-                    </table>
-                </div>
-            
-        
-            
-                <div class="col-span-2 my-8 bg-yellow-700">
-                    <hr class="h-px my-4 bg-white border-0">
-                </div>
-            
-            
-                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
-            
-        
-            
-            
-                <p class="font-sans text-xl tracking-widest text-center text-slate-300">EMPTY</p>
-            
-        
-            
-                <div class="col-span-2 my-8 bg-green-700">
-                    <hr class="h-px my-4 bg-white border-0">
-                </div>
-            
-            
-                <div>
-                    <div class="tradingview-widget-container">
-                        <div class="tradingview-widget-container__widget"></div>
-                        
-                        <script type="text/javascript"
-                                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                            {
-                                "height": 1200,
-                                "symbol": "CORZ",
-                                "interval": "30",
-                                "timezone": "America/Los_Angeles",
-                                "theme": "dark",
-                                "style": "9",
-                                "locale": "en",
-                                "hide_top_toolbar": true,
-                                "allow_symbol_change": false,
-                                "save_image": false,
-                                "watchlist": ["CORZ", "EQT", "RCL", "RIVN", "AMD", "BKNG", "F", "HON", "COIN", "RUN", "ARLO", "DGX", "INSM", "PWR", "TER", "TNDM", "VITL", "ALHC", "BKKT", "DCTH", "HUMA", "IGMS", "IT", "MRUS", "REPL", "RSG", "SPG"],
-                                "calendar": false,
-                                "studies": [
-                                    "STD;RSI",
-                                    "STD;Money_Flow",
-                                    "STD;DMI",
-                                    "STD;Stochastic",
-                                    "STD;MACD",
-                                    "STD;Bollinger_Bands"
-                                ],
-                                
-                                
-                                
-                                "support_host": "https://www.tradingview.com"
-                            }
-                        </script>
-                        
-                    </div>
-                    
-                    
-                    
-
-
-
-
-
-                            
-                    
-                    
-                    
-                    <table class="table-auto w-full text-center">
-                        <tbody>
-                        <caption class="pt-4 caption-bottom text-xs font-thin">
-                            
-                                CORZ,
-                            
-                                EQT,
-                            
-                                RCL,
-                            
-                                RIVN,
-                            
-                                AMD,
-                            
-                                BKNG,
-                            
-                                F,
-                            
-                                HON,
-                            
-                                COIN,
-                            
-                                RUN,
-                            
-                                ARLO,
-                            
-                                DGX,
-                            
-                                INSM,
-                            
-                                PWR,
-                            
-                                TER,
-                            
-                                TNDM,
-                            
-                                VITL,
-                            
-                                ALHC,
-                            
-                                BKKT,
-                            
-                                DCTH,
-                            
-                                HUMA,
-                            
-                                IGMS,
-                            
-                                IT,
-                            
-                                MRUS,
-                            
-                                REPL,
-                            
-                                RSG,
-                            
-                                SPG
-                            
-                        </caption>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=CORZ%2CCORZ&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">CORZ</a>
-                                </td>
-                                <td>GX3</td>
-                                <td>Core Scientific, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=EQT%2CEQT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">EQT</a>
-                                </td>
-                                <td>AX3</td>
-                                <td>EQT CORP</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=RCL%2CRCL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">RCL</a>
-                                </td>
-                                <td>GX3</td>
-                                <td>Royal Caribbean Group</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=RIVN%2CRIVN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">RIVN</a>
-                                </td>
-                                <td>GX3</td>
-                                <td>Rivian Automotive, Inc. Class A Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=AMD%2CAMD&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">AMD</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Advanced Micro Devices</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=BKNG%2CBKNG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">BKNG</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Booking Holdings Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=F%2CF&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">F</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Ford Motor Company</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=HON%2CHON&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">HON</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Honeywell International, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=COIN%2CCOIN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">COIN</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Coinbase Global, Inc. Class A Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        font-semibold
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=RUN%2CRUN&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">RUN</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Sunrun Inc</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ARLO%2CARLO&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ARLO</a>
-                                </td>
-                                <td>GX3</td>
-                                <td>Arlo Technologies, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=DGX%2CDGX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">DGX</a>
-                                </td>
-                                <td>GX3</td>
-                                <td>Quest Diagnostics Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=INSM%2CINSM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">INSM</a>
-                                </td>
-                                <td>AX3</td>
-                                <td>Insmed, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=PWR%2CPWR&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">PWR</a>
-                                </td>
-                                <td>GX3</td>
-                                <td>Quanta Services, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TER%2CTER&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TER</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Teradyne, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=TNDM%2CTNDM&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">TNDM</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Tandem Diabetes Care, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=VITL%2CVITL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">VITL</a>
-                                </td>
-                                <td>AT3</td>
-                                <td>Vital Farms, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ALHC%2CALHC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ALHC</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Alignment Healthcare, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=BKKT%2CBKKT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">BKKT</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Bakkt Holdings, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=DCTH%2CDCTH&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">DCTH</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Delcath Systems Inc</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=HUMA%2CHUMA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">HUMA</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Humacyte, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=IGMS%2CIGMS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">IGMS</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>IGM Biosciences, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=IT%2CIT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">IT</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Gartner, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=MRUS%2CMRUS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">MRUS</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Merus N.V. Common Shares</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=REPL%2CREPL&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">REPL</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Replimune Group, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=RSG%2CRSG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">RSG</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Republic Services Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=SPG%2CSPG&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">SPG</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Simon Property Group, Inc.</td>
-                            </tr>
-                        
-                        </tbody>
-                    </table>
-                </div>
-            
-        
-            
-            
-                <div>
-                    <div class="tradingview-widget-container">
-                        <div class="tradingview-widget-container__widget"></div>
-                        
-                        <script type="text/javascript"
-                                src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
-                            {
-                                "height": 1200,
-                                "symbol": "CSCO",
-                                "interval": "30",
-                                "timezone": "America/Los_Angeles",
-                                "theme": "dark",
-                                "style": "9",
-                                "locale": "en",
-                                "hide_top_toolbar": true,
-                                "allow_symbol_change": false,
-                                "save_image": false,
-                                "watchlist": ["CSCO", "KVUE", "VKTX", "ABT", "CLSK", "INO", "IRBT", "STZ", "ACDC", "CCCC", "DECK", "KDP", "LBPH", "TRUP", "AON", "ARCT", "BXC", "CB", "DGX", "HEAR", "ICU", "SIGA", "WRB"],
-                                "calendar": false,
-                                "studies": [
-                                    "STD;RSI",
-                                    "STD;Money_Flow",
-                                    "STD;DMI",
-                                    "STD;Stochastic",
-                                    "STD;MACD",
-                                    "STD;Bollinger_Bands"
-                                ],
-                                
-                                
-                                
-                                "support_host": "https://www.tradingview.com"
-                            }
-                        </script>
-                        
-                    </div>
-                    
-                    
-                    
-
-
-
-
-
-                            
-                    
-                    
-                    
-                    <table class="table-auto w-full text-center">
-                        <tbody>
-                        <caption class="pt-4 caption-bottom text-xs font-thin">
-                            
-                                CSCO,
-                            
-                                KVUE,
-                            
-                                VKTX,
-                            
-                                ABT,
-                            
-                                CLSK,
-                            
-                                INO,
-                            
-                                IRBT,
-                            
-                                STZ,
-                            
-                                ACDC,
-                            
-                                CCCC,
-                            
-                                DECK,
-                            
-                                KDP,
-                            
-                                LBPH,
-                            
-                                TRUP,
-                            
-                                AON,
-                            
-                                ARCT,
-                            
-                                BXC,
-                            
-                                CB,
-                            
-                                DGX,
-                            
-                                HEAR,
-                            
-                                ICU,
-                            
-                                SIGA,
-                            
-                                WRB
-                            
-                        </caption>
                         
                             
                             <tr class="bg-slate-100
@@ -1431,23 +1364,23 @@
                                         font-semibold
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=KVUE%2CKVUE&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">KVUE</a>
+                                    <a href="https://elite.finviz.com/charts?t=CSX%2CCSX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">CSX</a>
                                 </td>
-                                <td>GX3</td>
-                                <td>Kenvue Inc.</td>
+                                <td>AX3</td>
+                                <td>CSX Corporation</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-100
                                         font-semibold
-                                        False ">
+                                        text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=VKTX%2CVKTX&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">VKTX</a>
+                                    <a href="https://elite.finviz.com/charts?t=SCHW%2CSCHW&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">SCHW</a>
                                 </td>
-                                <td>AT3</td>
-                                <td>Viking Therapeutics, Inc</td>
+                                <td>AX3</td>
+                                <td>The Charles Schwab Corporation</td>
                             </tr>
                         
                             
@@ -1467,6 +1400,18 @@
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=BA%2CBA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">BA</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>Boeing Company</td>
+                            </tr>
+                        
+                            
+                            <tr class="bg-slate-50
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
                                     <a href="https://elite.finviz.com/charts?t=CLSK%2CCLSK&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
                                        target="_blank" rel="noopener noreferrer">CLSK</a>
                                 </td>
@@ -1475,7 +1420,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-50
+                            <tr class="bg-slate-100
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
@@ -1487,7 +1432,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-100
+                            <tr class="bg-slate-50
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
@@ -1499,15 +1444,27 @@
                             </tr>
                         
                             
+                            <tr class="bg-slate-100
+                                        font-semibold
+                                        False ">
+                                <td class="px-4 py-1 font-mono">
+                                    <a href="https://elite.finviz.com/charts?t=KEY%2CKEY&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">KEY</a>
+                                </td>
+                                <td>LT3</td>
+                                <td>KeyCorp</td>
+                            </tr>
+                        
+                            
                             <tr class="bg-slate-50
                                         font-semibold
                                         False ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=STZ%2CSTZ&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">STZ</a>
+                                    <a href="https://elite.finviz.com/charts?t=NKLA%2CNKLA&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">NKLA</a>
                                 </td>
                                 <td>LT3</td>
-                                <td>Constellation Brands, Inc.</td>
+                                <td>Nikola Corporation Common Stock</td>
                             </tr>
                         
                             
@@ -1515,27 +1472,15 @@
                                         False
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ACDC%2CACDC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ACDC</a>
+                                    <a href="https://elite.finviz.com/charts?t=AEYE%2CAEYE&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">AEYE</a>
                                 </td>
                                 <td>AX3</td>
-                                <td>ProFrac Holding Corp. Class A Common Stock</td>
+                                <td>AudioEye, Inc. Common Stock</td>
                             </tr>
                         
                             
                             <tr class="bg-slate-50
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=CCCC%2CCCCC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">CCCC</a>
-                                </td>
-                                <td>AX3</td>
-                                <td>C4 Therapeutics, Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
                                         False
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
@@ -1547,31 +1492,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-50
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=KDP%2CKDP&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">KDP</a>
-                                </td>
-                                <td>AX3</td>
-                                <td>Keurig Dr Pepper Inc.</td>
-                            </tr>
-                        
-                            
                             <tr class="bg-slate-100
-                                        False
-                                        text-orange-700 ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=LBPH%2CLBPH&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">LBPH</a>
-                                </td>
-                                <td>AX3</td>
-                                <td>Longboard Pharmaceuticals, Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
                                         False
                                         text-orange-700 ">
                                 <td class="px-4 py-1 font-mono">
@@ -1583,55 +1504,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=AON%2CAON&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">AON</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Aon plc Class A</td>
-                            </tr>
-                        
-                            
                             <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ARCT%2CARCT&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ARCT</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Arcturus Therapeutics Holdings Inc. Common Stock</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=BXC%2CBXC&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">BXC</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>BlueLinx Holdings Inc.</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-50
-                                        False
-                                        False ">
-                                <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=CB%2CCB&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">CB</a>
-                                </td>
-                                <td>LT3</td>
-                                <td>Chubb Limited</td>
-                            </tr>
-                        
-                            
-                            <tr class="bg-slate-100
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
@@ -1643,7 +1516,7 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-50
+                            <tr class="bg-slate-100
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
@@ -1655,19 +1528,19 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-100
+                            <tr class="bg-slate-50
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=ICU%2CICU&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">ICU</a>
+                                    <a href="https://elite.finviz.com/charts?t=INFY%2CINFY&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">INFY</a>
                                 </td>
                                 <td>LT3</td>
-                                <td>SeaStar Medical Holding Corporation Common Stock</td>
+                                <td>Infosys Limited American Depositary Shares</td>
                             </tr>
                         
                             
-                            <tr class="bg-slate-50
+                            <tr class="bg-slate-100
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
@@ -1679,15 +1552,15 @@
                             </tr>
                         
                             
-                            <tr class="bg-slate-100
+                            <tr class="bg-slate-50
                                         False
                                         False ">
                                 <td class="px-4 py-1 font-mono">
-                                    <a href="https://elite.finviz.com/charts?t=WRB%2CWRB&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
-                                       target="_blank" rel="noopener noreferrer">WRB</a>
+                                    <a href="https://elite.finviz.com/charts?t=TDS%2CTDS&p=d%2Ci30&r=m3%2Cprev_0-0-7&l=2h1v"
+                                       target="_blank" rel="noopener noreferrer">TDS</a>
                                 </td>
                                 <td>LT3</td>
-                                <td>W.R. Berkley Corporation</td>
+                                <td>Telephone and Data Systems Inc.</td>
                             </tr>
                         
                         </tbody>
